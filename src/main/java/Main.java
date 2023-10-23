@@ -7,9 +7,8 @@ package main.java;
 import java.util.Scanner;
 
 class Main {
+    private static final Scanner scanner = new Scanner(System.in);   // Creates a scanner to read inputs
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);   // Creates a scanner to read inputs
-
         boolean run = true;
         while (run) {
             System.out.println("\nWelcome to my Application!");
@@ -30,8 +29,6 @@ class Main {
                     System.out.println("Option is invalid. Try again");
             }
         }
-
-        scanner.close();        // Closes scanner to prevent memory leak
     }
 
     public static void printHelloWorld() {
