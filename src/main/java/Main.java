@@ -1,5 +1,4 @@
 /* "Your name"
- * "Partners name"
  * "Class and period"
  * "Date"
  */
